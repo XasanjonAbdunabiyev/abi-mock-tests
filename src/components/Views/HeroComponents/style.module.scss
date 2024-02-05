@@ -1,0 +1,62 @@
+.root {
+	background-color: #11284b;
+	background-size: cover;
+	height: 80vh;
+	background-image: linear-gradient(
+			300deg,
+			rgba(130, 201, 30, 0) 0%,
+			#05376ca7 70%
+		),
+		url('@/assets/images/home-hero.jpg');
+	padding-bottom: calc(var(--mantine-spacing-xl) * 3);
+	@media screen and (max-width: 780px) {
+		background-position: center;
+	}
+}
+
+.inner {
+	display: flex;
+	justify-content: space-between;
+
+	@media (max-width: $mantine-breakpoint-md) {
+		flex-direction: column;
+	}
+}
+
+.image {
+	@media (max-width: $mantine-breakpoint-md) {
+		display: none;
+	}
+}
+
+.content {
+	padding-top: calc(var(--mantine-spacing-xl) * 2);
+	padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+	margin-right: calc(var(--mantine-spacing-xl) * 3);
+
+	@media (max-width: $mantine-breakpoint-md) {
+		margin-right: 0;
+	}
+}
+
+.title {
+	font-weight: bolder;
+	line-height: 1.7;
+	max-width: rem(700px);
+	font-size: rem(55px);
+	word-spacing: 5px;
+	background: -webkit-linear-gradient(
+		#ffffff,
+		#e0e0e0,
+		#bbb,
+		rgb(234, 234, 237)
+	);
+	-webkit-background-clip: text;
+	font-family: 'Nunito', sans-serif !important;
+	-webkit-text-fill-color: transparent;
+	@media (max-width: $mantine-breakpoint-md) {
+		max-width: 100%;
+		font-size: rem(40px);
+		line-height: 1.35;
+	}
+}

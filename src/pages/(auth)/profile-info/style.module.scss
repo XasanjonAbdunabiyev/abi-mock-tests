@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	padding: 60px 0;
+	align-items: center;
+	.lottieUser {
+		width: 49%;
+	}
+	.profileContent {
+		width: 49%;
+	}
+	@media (max-width: 1092px) {
+		flex-direction: column-reverse;
+		.lottieUser {
+			width: 99%;
+		}
+		.profileContent {
+			width: 99%;
+		}
+	}
+}
