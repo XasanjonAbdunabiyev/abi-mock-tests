@@ -58,10 +58,10 @@ export default function PurchaseMockScreen() {
 	return (
 		<Layout>
 			<PurchaseMockBanner />
-			<PurchaseMockTable
+			{/* <PurchaseMockTable
 				questions={questions}
 				userIsPaid={currentUser?.isPaid}
-			/>
+			/> */}
 		</Layout>
 	)
 }
