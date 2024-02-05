@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom'
 import { LockIcon } from 'lucide-react'
 
 export function PurchaseMockTable(props) {
-	const questions = props?.questions
-	let currentUserIsPaid = props?.userIsPaid
+	const questions = props?.questions;
+	let currentUserIsPaid = props?.userIsPaid;
 	let navigate = useNavigate()
 
 	const renderSubmissionButton = (navigatePath) => (
