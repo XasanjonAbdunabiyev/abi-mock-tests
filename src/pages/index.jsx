@@ -14,7 +14,12 @@ const PurchaseMockScreen = React.lazy(
 	() => import('./(mock-tests)/purchase-mock/purchase-mock-screen')
 )
 
-const PurchaseMockSpeaking = React.lazy(() => import('./'))
+const PurchaseMockSpeaking = React.lazy(
+	() =>
+		import(
+			'./(mock-tests)/purchase-mock/purchase-mock-speaking/purchase-mock-speak'
+		)
+)
 
 const SignInScreen = React.lazy(() => import('./(auth)/sign-in/sign-in-screen'))
 

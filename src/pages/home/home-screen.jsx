@@ -34,7 +34,6 @@ export default function HomeScreen() {
 		</Box>
 	)
 
-	console.log(data)
 
 	const rows = data?.map((element, index) => {
 		return (

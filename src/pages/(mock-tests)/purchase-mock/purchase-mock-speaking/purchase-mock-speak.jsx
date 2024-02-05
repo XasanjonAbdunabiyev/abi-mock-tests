@@ -47,8 +47,6 @@ export default function PurchaseMockSpeak() {
 					})
 				} else if (status === 'success') {
 					const [firstElement] = data
-					console.log('data', data)
-
 					setQuestions(firstElement)
 				}
 			}
