@@ -53,7 +53,6 @@ export function HeaderMegaMenu() {
 		}
 	}, [])
 
-	console.log(userData)
 	return (
 		<Box pb={20}>
 			<Container size="xl">
@@ -61,8 +60,9 @@ export function HeaderMegaMenu() {
 					<Group justify="space-between" h="100%">
 						<Title
 							order={3}
+							fw="900"
 							tt="uppercase"
-							style={{ cursor: 'pointer' }}
+							style={{ cursor: 'pointer', fontWeight: "bold" }}
 							onClick={() => navigate(`${ROUTER_ACTIONS.HOME}`)}
 						>
 							Multi Level

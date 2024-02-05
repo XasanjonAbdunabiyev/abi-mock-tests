@@ -38,6 +38,7 @@ export function Footer() {
 			<div className={classes.inner}>
 				<Title
 					order={3}
+					fw="900"
 					tt="uppercase"
 					style={{ cursor: 'pointer' }}
 					onClick={() => navigate(`${ROUTER_ACTIONS.HOME}`)}
