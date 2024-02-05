@@ -26,7 +26,7 @@ export default function HomeScreen() {
 	})
 
 	if (status === 'pending' && isLoading && isFetching) return <PageLoading />
-	else if (status === 'error') return <p>Error</p>
+	// else if (status === 'error') return <p>Error</p>
 
 	const renderSubmissionButton = (navigatePath) => (
 		<Box>
