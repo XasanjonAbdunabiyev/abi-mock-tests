@@ -4,7 +4,7 @@ const HomeScreen = React.lazy(() => import('./home/home-screen'))
 
 const DashboardScreen = React.lazy(() => import('./dashboard/dashboard-screen'))
 
-const NotFoundScreen = React.lazy(() => import('./404/not-found'))
+const NotFoundScreen = React.lazy(() => import('./error-pages/404/not-found'))
 
 const ProfileInfoScreen = React.lazy(
 	() => import('./(auth)/profile-info/profile-info-screen')
