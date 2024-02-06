@@ -83,8 +83,6 @@ export default function SignInScreen() {
 		}
 	}
 
-	console.log(admin)
-
 	return (
 		<div className={classes.wrapper}>
 			<Paper className={classes.form} radius={0} p={30}>
